@@ -1,0 +1,9 @@
+{
+	"name": "dfc-covid-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ebd5fef-4b64-477c-a193-eb16485155dd",
+		"tenantId": "687ac517-39ed-413b-83bb-0c1dd284e199"
+	}
+}

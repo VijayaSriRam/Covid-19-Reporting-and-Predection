@@ -1,0 +1,27 @@
+{
+	"name": "dfc_ds_processed_cases_and_deaths",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dfc_ls_adls_covrepdl",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Processed"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "ecdc/cases_deaths",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
